@@ -8,14 +8,11 @@ on:
     branches: [ master ]
 
 jobs:
-  build-and-test:
+  Simulator:
     runs-on: macos-latest
 
     steps:
     - uses: actions/checkout@v2
-
-    - name: Select Xcode
-      run: sudo xcode-select -switch /Applications/Xcode_12.app
 
     - name: Build and test
       run: |
