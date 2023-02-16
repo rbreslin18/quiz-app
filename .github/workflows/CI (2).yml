@@ -1,5 +1,5 @@
 
-name: CI
+name: CI-iPhone11-iOS16.2
 
 on:
   push:

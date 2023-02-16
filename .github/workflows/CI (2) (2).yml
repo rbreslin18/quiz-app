@@ -1,5 +1,5 @@
 
-name: CI
+name: CI-MULTIPLE-iPhone11-iOS16.2,iPhone13-iOS16.2,iPhone14-iOS16.2
 
 on:
   push:

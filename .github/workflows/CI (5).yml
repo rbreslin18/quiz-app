@@ -1,5 +1,5 @@
 
-name: CI
+name: CICI-iPhone14-iOS16.2
 
 on:
   push:
@@ -17,4 +17,4 @@ jobs:
     - name: Build and test
       run: |
         xcrun simctl list 
-        xcodebuild clean build test -workspace App/QuizApp.xcworkspace -scheme "CI" -sdk iphonesimulator -destination "platform=iOS Simulator,name=iPhone 11" ONLY_ACTIVE_ARCH=NO CODE_SIGNING_REQUIRED=NO
+        xcodebuild clean build test -workspace App/QuizApp.xcworkspace -scheme "CI" -sdk iphonesimulator -destination "platform=iOS Simulator,name=iPhone 14" ONLY_ACTIVE_ARCH=NO CODE_SIGNING_REQUIRED=NO
